@@ -12,3 +12,16 @@ Content-Type: application/json
     "email": "destio@gmail.com",
     "gender": "Male"
 }
+
+###
+PATCH http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "Destio Hardiansyah",
+    "email": "haadeest@gmail.com",
+    "gender": "Male"
+}
+
+###
+DELETE http://localhost:3000/users/2
