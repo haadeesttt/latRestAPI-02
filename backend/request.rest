@@ -8,20 +8,18 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Destio Hardiansyah",
-    "email": "destio@gmail.com",
-    "gender": "Male"
+    "name": "Brananti Ratuasty",
+    "email": "brananti@gmail.com",
+    "gender": "Female"
 }
 
 ###
-PATCH http://localhost:3000/users/1
+PATCH http://localhost:3000/users/8
 Content-Type: application/json
 
 {
-    "name": "Destio Hardiansyah",
-    "email": "haadeest@gmail.com",
-    "gender": "Male"
+    "name": "Destio"
 }
 
 ###
-DELETE http://localhost:3000/users/2
+DELETE http://localhost:3000/users/7
